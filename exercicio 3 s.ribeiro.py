@@ -1,10 +1,9 @@
-n1 = (float(input("digite numero 1 ")))
-n2 = (float(input("digite numero 2")))
-n3 = (float(input("digite numero 3")))
-n4 =(float(input("digite numero 4")))
-n5 =(float(input("digite numero 5")))
-numeros = [n1,n2,n3,n4,n5]
+numeros = []
+for i in range(5):
+    numero = int(input("digite m numero"))
+    numeros.append(numero)
+    
+def maior_numero(lista):
+    return max(lista)
 
-print(max(numeros))
- 
-
+print (f"esse é o maior numero {maior_numero(numeros)}")
