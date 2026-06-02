@@ -10,4 +10,13 @@ def calcular_media(nota1, nota2):
 
 media_calculada = calcular_media(nota1=n1, nota2=n2)
 
-print(f"O aluno {aluno} obteve a seguinte média: {media_calculada}")
+if media_calculada>=60:
+    print("Aprovado!")
+
+elif media_calculada>=40:
+    print("Recuperação")
+
+else:
+    print("Reprovado")
+
+
